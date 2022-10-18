@@ -36,6 +36,9 @@ $(document).ready(function() {
                 minlength: "Kolom nim harus terdiri dari 10 digit",
                 maxlength: "Kolom nim harus terdiri dari 10 digit"
             },
+            alamat: {
+                required: "Alamat harus diisi",
+            },
             tgl: {
                 required: "Tanggal lahir harus diisi",
             },
