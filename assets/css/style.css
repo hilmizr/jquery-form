@@ -1,0 +1,140 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background-image: url(../img/BG.png);
+    /* background-color: #1C4FFE; */
+}
+
+body {
+    font-family: montserrat;
+}
+
+
+/*form styles*/
+
+.error {
+    font-size: small;
+    color: #F00000;
+    text-align: left;
+}
+
+#frm-mhs {
+    /* text-align: center; */
+    position: relative;
+    width: 50%;
+    margin-left: 27%;
+    margin-right: 30%;
+}
+
+#frm-mhs #alamat {
+    resize: none;
+}
+
+#frm-mhs fieldset {
+    background: #FFFFFF;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+    padding: 25px 50px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0% 10%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#frm-mhs fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+/*Inputs*/
+
+#frm-mhs input,
+#frm-mhs textarea {
+    padding: 15px;
+    border: 1px transparent;
+    background-color: F9F9F9;
+    border-radius: 9.5px;
+    margin-top: 7.5px;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 7.5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    font-weight: 400;
+    color: #191919;
+    font-size: 13px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #989898;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #989898;
+}
+
+#frm-mhs input:focus,
+#frm-mhs textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #1C4FFE;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+
+/*buttons*/
+
+#frm-mhs .action-button {
+    width: 100%;
+    background: #1C4FFE;
+    font-weight: 600;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    transition: all .2s ease-in-out;
+}
+
+#frm-mhs .action-button:hover,
+#frm-mhs .action-button:focus {
+    scale: 1.02;
+}
+
+
+/*headings*/
+
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1C4FFE;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    /* margin-top: -30px; */
+}
+
+.fs-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 10px;
+}
